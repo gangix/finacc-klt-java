@@ -7,11 +7,9 @@ DB Issues:
  Also mysql server url should be updated with valid in application.properties.	
 
 Application Issues:
-	I used Spring Boot to call method per 2 minutes. 
-	Rss Feed Link is written in application.properties file. It can be updated from there.
-	Inserting all entries in Embedded DB
+	I used Spring Boot.Used Rest service for age resolve method.
+Used IndexController for form methods. add/list/delete
 API Documantation
 	http://localhost:8080/swagger-ui.html#/
-						-->Rss Feed Controller
 	
 
