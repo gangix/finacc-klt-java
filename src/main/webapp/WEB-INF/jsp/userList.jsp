@@ -12,9 +12,11 @@
         <table border="1" cellpadding="5">
             <caption><h3>List of Users</h3></caption>
             <tr>
+		<th>Id</th>
                 <th>Name</th>
                 <th>LastName</th>
                 <th>Age</th>
+		<th>Action</th>
             </tr>
             <c:forEach var="user" items="${userList}">
                 <tr>
